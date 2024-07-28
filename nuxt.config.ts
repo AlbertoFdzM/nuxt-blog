@@ -1,5 +1,9 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  app: {
+    baseURL: "/nuxt-blog/",
+  },
+
   devtools: { enabled: true },
 
   extends: ["node_modules/nuxt-content-assets/cache"],
