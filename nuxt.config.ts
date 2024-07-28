@@ -6,6 +6,7 @@ export default defineNuxtConfig({
 
   devtools: { enabled: true },
 
+  // https://github.com/davestewart/nuxt-content-assets/?tab=readme-ov-file#nuxt-image
   extends: ["node_modules/nuxt-content-assets/cache"],
 
   modules: ["nuxt-content-assets", "@nuxt/content", "@nuxt/image"],
