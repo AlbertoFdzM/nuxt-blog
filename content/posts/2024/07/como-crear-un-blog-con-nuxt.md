@@ -1,6 +1,6 @@
 # Cómo Crear un Blog con Nuxt
 
-![Logo de Nuxt blanco y verde](nuxt-logo-green-white.png){style="background: black;"}
+![Logo de Nuxt blanco y verde](/nuxt-logo-green-white.png){style="background: black;"}
 
 1. Intro
 1. Nuxt

@@ -1,15 +1,8 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  app: {
-    baseURL: "/nuxt-blog/",
-  },
-
   devtools: { enabled: true },
 
-  // https://github.com/davestewart/nuxt-content-assets/?tab=readme-ov-file#nuxt-image
-  extends: ["node_modules/nuxt-content-assets/cache"],
-
-  modules: ["nuxt-content-assets", "@nuxt/content", "@nuxt/image"],
+  modules: ["@nuxt/content", "@nuxt/image"],
 
   routeRules: {
     "/": { prerender: true },
