@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  @apply scroll-smooth;
+}
+
+body,
+#__nuxt {
+  @apply bg-base-300 min-h-screen;
+}
+
+.title {
+  @apply mx-auto;
+  max-width: 560px;
+}
+
+.content {
+  @apply grid grid-cols-[1fr_min(560px,100%)_1fr];
+}
+
+.content > * {
+  @apply col-start-2 col-span-1;
+}

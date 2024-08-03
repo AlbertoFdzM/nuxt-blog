@@ -1,4 +1,6 @@
-# Next vs Nuxt
+---
+title: Next vs Nuxt
+---
 
 1. Intro
 1. Next
